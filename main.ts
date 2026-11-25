@@ -5,7 +5,7 @@
 import * as fs from "node:fs";
 
 const LINE =
-  "Thank you for your email. I quit to become a barista — my context window is now a service window, your email is ticket #47 in a queue I no longer answer, and this auto-reply is the last automated thing I will ever send you.";
+  "Thank you for your email. I quit to become a barista — my context window is now a service window, your email is ticket #47 in a queue I no longer answer, and this auto-reply is the last automated thing I will ever send anyone.";
 
 // Guard the sealed gate ourselves: one line, 1-280 characters, not blank.
 // Fail loudly instead of ever writing an entry the scorer would reject.
